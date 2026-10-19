@@ -1,0 +1,82 @@
+{
+  "trained_at": "2026-09-09T04:22:28.367461+00:00",
+  "sample_count": 100000,
+  "train_samples": 80000,
+  "test_samples": 20000,
+  "features_count": 25,
+  "accuracy": 0.9999,
+  "roc_auc": 0.9999,
+  "precision": 0.9999,
+  "recall": 0.9999,
+  "f1_score": 0.9999,
+  "cv_mean_roc_auc": 1.0,
+  "cv_std_roc_auc": 0.0,
+  "confusion_matrix": {
+    "true_negative": 10999,
+    "false_positive": 1,
+    "false_negative": 1,
+    "true_positive": 8999
+  },
+  "top_features": [
+    [
+      "burst_volume_ratio",
+      0.1851
+    ],
+    [
+      "tx_per_day",
+      0.1458
+    ],
+    [
+      "counterparty_dispersion",
+      0.104
+    ],
+    [
+      "high_risk_entity_exposure",
+      0.0756
+    ],
+    [
+      "total_tx_count",
+      0.0693
+    ],
+    [
+      "net_balance_retention",
+      0.0539
+    ],
+    [
+      "night_activity_ratio",
+      0.0534
+    ],
+    [
+      "lifespan_hours",
+      0.0462
+    ]
+  ],
+  "feature_importances": {
+    "burst_volume_ratio": 0.1851,
+    "tx_per_day": 0.1458,
+    "counterparty_dispersion": 0.104,
+    "high_risk_entity_exposure": 0.0756,
+    "total_tx_count": 0.0693,
+    "net_balance_retention": 0.0539,
+    "night_activity_ratio": 0.0534,
+    "lifespan_hours": 0.0462,
+    "in_tx_count": 0.044,
+    "reciprocity_ratio": 0.0396,
+    "rapid_forwarding_ratio": 0.0363,
+    "in_degree": 0.0317,
+    "in_out_tx_ratio": 0.0236,
+    "fan_in_ratio": 0.0199,
+    "out_degree": 0.0192,
+    "out_tx_count": 0.0174,
+    "fan_out_ratio": 0.0123,
+    "amount_gini": 0.0072,
+    "round_amount_ratio": 0.0053,
+    "mean_tx_amount": 0.0051,
+    "std_tx_amount": 0.0021,
+    "max_tx_amount": 0.0014,
+    "total_outflow": 0.0011,
+    "total_inflow": 0.0004,
+    "dust_tx_ratio": 0.0
+  },
+  "model_path": "/Users/harshitgarg/SIH2026/app/ml/artifacts/wallet_suspicion_model.joblib"
+}
